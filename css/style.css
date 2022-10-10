@@ -1,0 +1,81 @@
+
+
+
+body, h1,h2,p,ul,li,a{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1200px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+.menu-bg{
+    background-color:#fff
+}
+.menu-bg::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: rgb(236, 16, 16);
+}
+
+.menu{
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-logo a img{
+    max-width: 140px;
+    max-height: 140px;
+    padding: 20px 0px;
+}
+.menu-nav ul{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.menu-nav ul li{
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;   
+}
+.menu-nav ul li:hover{
+box-shadow: rgb(233, 4, 4) 3px 3px 2px 3px;
+}
+.menu-nav ul li a{
+   font-family: 'Kdam Thmor Pro', sans-serif;
+
+    font-size: 1rem;
+    color: #000;
+}
+.fundo-container{
+    background: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.borda{
+    color: #000;
+    height: 4px;
+    width: 100%;
+}
+
